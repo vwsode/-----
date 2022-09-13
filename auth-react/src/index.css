@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+}
+
+body {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 2rem;
+}
