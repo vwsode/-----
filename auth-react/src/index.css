@@ -6,11 +6,12 @@
 :root {
   font-family: 'Poppins', Avenir, Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: #000;
 }
 
-body {
-  max-width: 1480px;
-  margin: 0 auto;
-  padding: 2rem;
-}
+/* #root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

@@ -5,11 +5,12 @@ import SignUp from './pages/SignUp/SignUp';
 import User from './pages/User/User';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <div className="">
-      <Router>
+    <Router>
+      <Layout>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
@@ -22,8 +23,8 @@ function App() {
             }
           />
         </Routes>
-      </Router>
-    </div>
+      </Layout>
+    </Router>
   );
 }
 
