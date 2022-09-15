@@ -15,7 +15,7 @@ const Login = () => {
       await signIn(email, password);
       navigate('/user');
     } catch (err) {
-      console.log(err);
+      console.log(err.message);
     }
   };
 
@@ -39,14 +39,14 @@ const Login = () => {
               title="Email"
               placeholder="Enter your email"
               type="email"
-              require
+              require="true"
             />
             <Input
               onChange={(e) => setPassword(e.target.value)}
               title="Password"
               placeholder="• • • • • • • • • • • •"
               type="password"
-              require
+              require="true"
             />
             <div className="text-sm flex justify-between items-center">
               <label className="flex items-center">
